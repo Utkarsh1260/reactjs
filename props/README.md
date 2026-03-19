@@ -27,6 +27,6 @@ If you are developing a production application, we recommend using TypeScript wi
 ## 📸 Preview
 
 <p align="center">
-  <img src="project-preview.png" width="800"/>
+  <img src="project_preview.png" width="800"/>
 </p>
 
