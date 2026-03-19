@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,html{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(36, 33, 33);
+}
+
+.card1{
+
+  padding: 5px;
+  width: 97vw;
+  margin: 10px;
+  text-align: center;
+  color:white;
+  flex-wrap: wrap;
+   display: flex;
+  gap: 20px;  
+}
+
+.card1 > div{
+  flex: 1;    
+}
+
+p{
+  margin: 15px 15px;
+}
+
+img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+button{
+
+  border: none;
+  color: rgb(1, 0, 0);
+  background-color: rgb(245, 245, 245);
+  padding: 10px 5px;
+    margin-top: auto;  /* 🔥 THIS pushes button to bottom */
+  border-radius: 10px;
+}
+
+
+.card1 > div:has(img){
+
+  padding:20px;
+  border-radius: 30px;
+  border: 3px solid rgb(224, 216, 216);
+}
+
+
