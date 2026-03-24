@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+
+#rgt::-webkit-scrollbar{
+    display: none;
+}
