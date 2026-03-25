@@ -7,7 +7,7 @@ const StoryContent = (props) => {
 
         <h2 className="bg-amber-50 w-10 aspect-square rounded-full font-bold flex items-center justify-center">{props.id+1}</h2>
         <div className=''>
-          <p className=' leading-normal text-white mb-8'></p>
+          <p className=' leading-normal text-white mb-8'>{props.intro}</p>
 
           <div className=' flex justify-between'>
             <button style={{backgroundColor:props.color}} className=' rounded-full px-4 py-1 text-white'>{props.tag}</button>

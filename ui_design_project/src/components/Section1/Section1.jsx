@@ -3,10 +3,11 @@ import Navbar from './Navbar'
 import Page1Content from './Page1Content'
 
 const Section1 = (props) => {
+  console.log(props.intro)
   return (
     <div className='h-screen w-full'>
        <Navbar/>
-       <Page1Content users={props.users}/>
+       <Page1Content users={props.users} intro={props.intro}/>
     </div>
   )
 }

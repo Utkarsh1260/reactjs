@@ -8,7 +8,7 @@ const RightContent = (props) => {
       <div className='h-full w-max flex gap-5 pr-2'>
         {props.users.map(function (elem, idx) {
           return <div key={idx} className='h-full w-64 shrink-0'>
-                      <Story color={elem.color} id={idx} img={elem.img} tag={elem.tag} />
+                      <Story color={elem.color} id={idx} img={elem.img} tag={elem.tag} intro={elem.intro}/>
                  </div>
         })}
 

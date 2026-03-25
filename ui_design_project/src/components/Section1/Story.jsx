@@ -6,7 +6,7 @@ const Story = (props) => {
     <div className=' h-full  overflow-hidden relative rounded-4xl '>
       <img className='h-full w-full object-cover' src={props.img} alt=''></img>
      
-     <StoryContent color={props.color} id={props.id} tag={props.tag}/>
+     <StoryContent color={props.color} id={props.id} tag={props.tag} intro={props.intro}/>
 
 
     </div>

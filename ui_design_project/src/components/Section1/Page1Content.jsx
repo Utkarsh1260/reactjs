@@ -6,7 +6,7 @@ const Page1Content = (props) => {
   return (
     <div className='h-[80vh]  px-12 py-4 flex gap-6'>
       <LeftContent/>
-      <RightContent users={props.users}/>
+      <RightContent users={props.users} intro={props.intro}/>
     </div>
   )
 }
