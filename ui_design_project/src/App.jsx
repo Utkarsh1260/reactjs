@@ -22,7 +22,7 @@ const App = () => {
       img: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cHJvZmlsZSUyMGltYWdlfGVufDB8MXwwfHx8Mg%3D%3D',
       intro: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga voluptas repudiandae aperiam et placeat officiis?',
       tag: 'Underbanked',
-       color: 'green'
+       color: 'yellow'
     },
     {
       img: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cHJvZmlsZSUyMGltYWdlfGVufDB8MXwwfHx8MA%3D%3D',
