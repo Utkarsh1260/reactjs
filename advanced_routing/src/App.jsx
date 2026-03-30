@@ -10,22 +10,24 @@ import NoteFound from './pages/NoteFound'
 import Developer from './pages/Developer'
 import Author from './pages/Author'
 
+
 const App = () => {
   return (
     <div className="flex flex-col min-h-screen bg-stone-950">
       <Navbar />
 
-      <div className="flex-grow">
+      <div className="grow">
         <Routes>
           <Route path="/" element={<Home />} />
+
           <Route path="/about" element={<About />}>
-               <Route path="developer" element={<Developer />} /> //Nested route
-          <Route path="author" element={<Author />} /> //Nested route
-          
+            <Route path="developer" element={<Developer />} />
+            <Route path="author" element={<Author />} />
           </Route>
+
+         
           <Route path="/contact" element={<Contact />} />
-     
-          <Route path="*" element={<NoteFound />} /> // when user type that route that not exist
+          <Route path="*" element={<NoteFound />} />
         </Routes>
       </div>
 
